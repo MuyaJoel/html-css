@@ -1,0 +1,33 @@
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin: 50px;
+    /* border: 10px; */
+    /* padding: 0px; */
+
+}
+.img{
+    margin: 20px;
+    margin-left: 60px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(96, 96, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: auto;
+}
+.content{
+    margin: 20px;
+    padding: 50px;
+    font-size: 10px;
+}
