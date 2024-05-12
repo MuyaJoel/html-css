@@ -1,0 +1,167 @@
+body{
+    background-color: beige;
+}
+.container{
+    display: flex;
+    margin: 25px;
+    margin-top: 0;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 320px;
+    margin-left: 25px;
+    border-bottom: 2px solid aliceblue;
+}
+.logo,
+.contacts,
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 25px;
+    font-size: 18px;
+}
+a{
+    margin-top: 25px;
+    font-size: 15px;
+}
+img{
+    border-radius: 50px;
+    width: 50px;
+}
+/* left column */
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 10px;
+    margin: 70px; 
+}
+.left{
+    width: 650px;
+    height: 700px;
+    border-radius: 10px;
+    border: 2px solid aliceblue;
+    background-color: aliceblue;
+}
+.left_content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+
+}
+.right{
+    width: 400px;
+    height: 700px;
+    border-radius: 10px;
+    border: 2px solid aliceblue;
+    background-color: aliceblue;
+}
+.right_content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin: 30px;
+
+}
+.left_nav{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px;
+
+}
+
+.left_nav ul{
+    display: flex;
+    flex-direction: row;
+    column-gap: 150px;
+}
+.left_nav ul li{
+    list-style: none;
+    font-size: 20px;
+}
+.left_form,
+.cncl_order{
+    padding: 20px 65px;
+}
+form label{
+    font-size: 25px;
+}
+form input{
+    font-size: 25px;
+    background-color: gray;
+    width: 500px;
+    border: 1px lightgray;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.logn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+p{
+    font-size: 20px;
+}
+.btn_login{
+    background-color: lightblue;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.cncl_order{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 0px;
+    padding-top: 60px;
+    margin-top: 50px;
+    border-top: 2px solid beige;
+}
+.btn_cncl{
+    background-color: lightblue;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* right column */
+.right_label{
+    font-size: 15px;
+}
+.card_input{
+    font-size: 25px;
+    background-color: gray;
+    width: 200px;
+    border: 1px lightgray;
+    border-radius: 5px;
+
+}
+.card_submit{
+    font-size: 15px;
+    background-color: whitesmoke;
+    width: 100px;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid lightblue;
+    color: blue;
+    margin-left: 30px;
+}
+.s_total,
+.tax,
+.shipping,
+.total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}

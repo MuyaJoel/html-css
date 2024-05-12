@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexApp</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="logo">
+                <img src="../media/logo.jpeg" alt="">
+            </div>
+            <div class="contacts">
+                <p>Home</p>
+                <p>Shop</p>
+                <p>Contact</p>
+                <p>Help</p>
+            </div>
+            <div class="about">
+                <p>Account</p> 
+                <a href=""><ion-icon name="arrow-dropdown"></ion-icon></a>
+                <a href=""><ion-icon name="cart"></ion-icon></a> 
+                <p>Items</p>
+                <img src="../media/human.jpeg" alt="">
+            </div>
+
+        </div>
+    </div>
+    <div class="content">
+        <div class="left">
+            <div class="left_content">
+                <div class="left_nav">
+                    <ul>
+                        <li>Account</li>
+                        <li>Shipping</li>
+                        <li>Payment</li>
+                    </ul>
+                </div>
+                <div class="left_form">
+                    <form action="">
+                        <h2>Account details.</h2>
+                        <label for="email">Email address.</label><br>
+                        <input type="email" name="email" placeholder="Email@exapmle.com"><br>
+                        <label for="psd">Password.</label><br>
+                        <input type="password" name="psd" placeholder="password">
+                        <div class="logn">
+                            <p>Register for account </p><button class="btn_login">Login</button>
+                        </di>
+                    </form>
+                </div>
+                <div class="cncl_order">
+                    <p>Cancel order </p><button class="btn_cncl">Shipping details</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="right">
+        <div class="right_content">
+            <div class="item_png">
+                <h2>Order Summary</h2>
+                <img src="../media/headphones.jpeg" style="width: 130px; height: 80px;" alt="">
+                <p>Sonny wireless headphones </p>
+                <p>320.45$</p> 
+            </div>
+            <div class="paymnt">
+                <form action="">
+                    <label class="right_label" for="card">Gift Card/Discount Code</label><br>
+                    <input class="card_input" type="text" name="Card"><input class="card_submit" type="submit" value="Apply">
+                </form>
+            </div>
+            <div class="pay">
+                <div class="s_total">
+                    <p>Sub total</p><p>316.55$</p>
+                </div>
+                <div class="tax">
+                    <p>Tax</p><p>3.45$</p>
+                </div>
+                <div class="shipping">
+                    <p>Shipping</p><p style="color: lightgreen;">Free</p>
+                </div>
+                <div class="total">
+                    <p><strong>Total</strong></p><p><strong>320.45$</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons.js"></script>
+    
+</body>
+</html>

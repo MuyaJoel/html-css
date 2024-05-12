@@ -1,0 +1,126 @@
+body{
+    background-color: whitesmoke;
+}
+.wrapper{
+    width: 90vw;
+    height: 90vh;
+    background-color: #D8E5F6;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 80vw;
+    height: 70vh;
+    border-radius: 5px;
+    /* border: 1px solid white; */
+    display: grid;
+    grid-template-columns: 73% 25%;
+    gap: 20px;
+}
+.cont1,
+.cont2{
+    background-color: #D8E5d8;
+    border-radius: 5px;
+}
+
+.cont1{
+    display: grid;
+    grid-template-rows: 48% 48%;
+    gap: 18px;
+
+}
+.cont2{
+    background-color: #D8E5d8;
+}
+.cont1_box1,
+.cont1_box2{
+    background-color: #D8E5d8;
+    border-radius: 5px;
+
+}
+.cont1_box1{
+    display: grid;
+    grid-template-columns: 62% 35%;
+    gap: 19px;
+
+}
+.cont1_box11,
+.cont1_box12{
+    background-color: darkslategray;
+    border-radius: 5px;
+
+}
+.cont1_box11{
+    background-color: purple;
+}
+
+.cont1_box2{
+    display: grid;
+    grid-template-columns: 35% 62%;
+    gap: 19px;
+
+}
+.cont1_box21,
+.cont1_box22{
+    background-color: black;
+    border-radius: 5px;
+
+}
+.cont1_box21{
+    background-color: whitesmoke;
+}
+.cont2_box{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 5px;
+}
+img{
+    border-radius: 25px;
+}
+p{
+    font-size: 20px;
+}
+.cont1_box11_box,
+.cont1_box22_box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1px;
+    margin: 10px;
+}
+span{
+    font-size: 18px;
+    color: white;
+}
+.img1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 25px;
+}
+.p1{
+    font-size: 15px;
+}
+.img2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 5px;
+
+}
+.cont1_box12_box,
+.cont1_box21_box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin: 10px;
+}
